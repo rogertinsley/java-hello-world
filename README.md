@@ -1,6 +1,8 @@
 # Hello world
 
-Playin' around with the jvm and spring boot... 
+Playin' around with the jvm and springboot... 
+
+install docker and enjoy!
 
 ```bash
 docker compose up  
