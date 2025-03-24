@@ -1,0 +1,39 @@
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and runtime files
+logs/
+*.log
+hs_err_pid*
+*.out
+*.err
+
+# Maven target directory
+target/
+!src/main/resources/static/**/target/
+!src/main/resources/public/**/target/
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if using frontend in the same repo)
+node_modules/
+
+# Docker ignore
+docker-compose.override.yml
